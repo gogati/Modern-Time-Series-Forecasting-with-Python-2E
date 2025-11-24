@@ -1,0 +1,30 @@
+# Knowledge Base Requirements for Agentic AI Pipeline
+
+# Vector Database (ChromaDB) - Recommended for semantic search
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# Alternative: Pinecone (for production)
+# pinecone-client>=2.2.4
+
+# SQL Database Support (optional)
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9  # PostgreSQL
+
+# Graph Database Support (optional)
+# neo4j>=5.15.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Embeddings (if not using sentence-transformers)
+# openai>=1.3.0  # For OpenAI embeddings
+# cohere>=4.37  # For Cohere embeddings
+
+# Monitoring (optional)
+# mlflow>=2.9.0
+# wandb>=0.16.0
